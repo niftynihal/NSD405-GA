@@ -5,9 +5,9 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - uses: actions/checkout@v4
+        - run: npm install
+        - run: npm run lint
         - run: node -v
         - run: npm -v
         - run: node index.js
-        - run: npm install
-        - run: npm run lint
 
