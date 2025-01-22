@@ -2,6 +2,7 @@ name: Github Actions First Demo
 on: push
 jobs: 
     first-job-on-windows-and-ubuntu-computer:
-      runs-on: windows-latest
+      runs-on: ubuntu-latest
       steps:
         - run: node -v
+        - run: npm -v
