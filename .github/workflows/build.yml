@@ -8,4 +8,5 @@ jobs:
         - run: node -v
         - run: npm -v
         - run: node index.js
+        - run: npm run lint
 
